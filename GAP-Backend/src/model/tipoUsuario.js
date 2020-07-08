@@ -9,7 +9,10 @@ var TipoUsuario = sequelize.define(nametable, {
         autoIncrement: true
     },
     nombreTipo: Sequelize.STRING,
-
+    estado: {
+        type: Sequelize.ENUM('activo', 'inactivo'),
+        defaultValue: 'activo'
+    }
 }, {
     timestamps: false
 });

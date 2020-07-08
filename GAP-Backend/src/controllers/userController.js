@@ -23,7 +23,7 @@ var generateHash = function(password) {
     return bCrypt.hashSync(password, bCrypt.genSaltSync(8), null);
 };
 
-var passwordValida = function(userpass, password){
+var passwordValida = function(userpass, password) {
     return bCrypt.compareSync(password, userpass);
 }
 
@@ -65,7 +65,7 @@ controllers.actualizar = async(req, res) => {
     // data
     const { id } = req.params;
     const { email, password } = req.body;
-    
+
     var userPassword = generateHash(password);
 
     // create
@@ -93,7 +93,7 @@ controllers.actualizar = async(req, res) => {
     res.status(200).json({
         data: data
     });
-}
+};
 
 controllers.eliminar = async(req, res) => {
     const { idusuario } = req.body;
@@ -103,64 +103,94 @@ controllers.eliminar = async(req, res) => {
     res.json({ success: true, deleted: del, message: "Eliminado Correctamente!" });
 }
 
-controllers.iniciarSesion = async(req, res) =>{
-    const {email, password} = req.body;
-    
+controllers.iniciarSesion = async(req, res) => {
+    const { email, password } = req.body;
+
     const data = await User.findOne({
         where: {
-            email:email
+            email: email
         }
-    }).then(function(user){
-        if(!user){
-            var obj ={
+    }).then(function(user) {
+        if (!user) {
+            var obj = {
                 login: false,
-                message:'Correo no existe'
+                message: 'Correo no existe'
             }
             return obj
-            
+
         }
 
-        if(!passwordValida(user.password, password)){
-            var obj ={
+        if (!passwordValida(user.password, password)) {
+            var obj = {
                 login: false,
-                message:'Password incorrecta'
+                message: 'Password incorrecta'
             }
             return obj
         };
 
-        var obj ={
+        var obj = {
             login: true,
-            message:''
+            message: ''
         }
         return obj
 
     })
 
-    res.json({ data:data });
+    res.json({ data: data });
 
 };
 
-controllers.comprobarExistenciaCorreo = async(req, res) =>{
+controllers.comprobarExistenciaCorreo = async(req, res) => {
     const { email } = req.body;
     const data = await User.findOne({
         where: {
-            email:email
+            email: email
         }
-    }).then(function(user){
-        if(!user){
+    }).then(function(user) {
+        if (!user) {
             var obj = {
-                existe:false
+                existe: false
             }
-        }else{
+        } else {
             var obj = {
-                existe:true
+                existe: true
             }
         }
         return obj;
     });
-    res.json({ data:data });
+    res.json({ data: data });
+};
+
+controllers.cambiarTipoUsuario = async(req, res) => {
+    // data
+    const { id } = req.params;
+    const { tipoUsuario } = req.body;
 
 
-}
+    // create
+    const data = await User.update({
+            tipoUsuario: tipoUsuario
+        }, {
+            where: { idusuario: id }
+        })
+        .then(function(data) {
+            var obj = {
+                success: true,
+                message: "Tipo de usuario actualizado exitosamente"
+            }
+            return obj;
+        })
+        .catch(error => {
+            var obj = {
+                success: false,
+                message: error
+            }
+            return obj;
+        })
+        // return res
+    res.status(200).json({
+        data: data
+    });
+};
 
 module.exports = controllers;
