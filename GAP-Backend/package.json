@@ -1,33 +1,33 @@
 {
-  "name": "GAP-Backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcrypt-nodejs": "0.0.3",
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "express-handlebars": "^4.0.5",
-    "express-session": "^1.17.1",
-    "local": "^0.3.3",
-    "moment": "^2.27.0",
-    "morgan": "^1.10.0",
-    "mssql": "^6.2.0",
-    "mysql2": "^2.1.0",
-    "nodemon": "^2.0.4",
-    "passport": "^0.4.1",
-    "passport-local": "^1.0.0",
-    "sequelize": "^6.2.4",
-    "session": "^0.1.0",
-    "strategy": "^1.1.1",
-    "tedious": "^8.3.0"
-  }
+    "name": "GAP-Backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt-nodejs": "0.0.3",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "express-handlebars": "^4.0.5",
+        "express-session": "^1.17.1",
+        "local": "^0.3.3",
+        "moment": "^2.27.0",
+        "morgan": "^1.10.0",
+        "mssql": "^6.2.0",
+        "mysql2": "^2.1.0",
+        "nodemon": "^2.0.4",
+        "passport": "^0.4.1",
+        "passport-local": "^1.0.0",
+        "sequelize": "^6.2.4",
+        "session": "^0.1.0",
+        "strategy": "^1.1.1",
+        "tedious": "^8.3.0"
+    }
 }
