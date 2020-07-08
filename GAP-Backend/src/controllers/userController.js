@@ -2,6 +2,8 @@ const controllers = {}
 
 var sequelize = require('./../model/database');
 var User = require('./../model/user');
+var bCrypt = require('bcrypt-nodejs');
+var LocalStrategy = require('passport-local').Strategy;
 
 sequelize.sync()
 
@@ -17,29 +19,42 @@ controllers.listar = async(req, res) => {
 
     res.json({ success: true, data: data })
 }
+var generateHash = function(password) {
+    return bCrypt.hashSync(password, bCrypt.genSaltSync(8), null);
+};
 
+var passwordValida = function(userpass, password){
+    return bCrypt.compareSync(password, userpass);
+}
 
 //Crear usuarios
 controllers.crear = async(req, res) => {
-    console.log('req.body ', req.body);
     // data
-    const { email, contraseña } = req.body;
+    const { email, password, tipoUsuario } = req.body;
+    var userPassword = generateHash(password);
+
     // create
     const data = await User.create({
             email: email,
-            contraseña: contraseña,
+            password: userPassword,
+            tipoUsuario: tipoUsuario
         })
         .then(function(data) {
-            return data;
+            var obj = {
+                success: true,
+                message: "Creado exitosamente"
+            }
+            return obj;
         })
         .catch(error => {
-            console.log("Error " + error)
-            return error;
+            var obj = {
+                success: false,
+                message: error
+            }
+            return obj;
         })
         // return res
     res.status(200).json({
-        success: true,
-        message: "Creado exitosamente",
         data: data
     });
 }
@@ -49,25 +64,33 @@ controllers.crear = async(req, res) => {
 controllers.actualizar = async(req, res) => {
     // data
     const { id } = req.params;
-    const { email, contraseña } = req.body;
+    const { email, password } = req.body;
+    
+    var userPassword = generateHash(password);
+
     // create
     const data = await User.update({
             email: email,
-            contraseña: contraseña,
+            password: userPassword,
         }, {
             where: { idusuario: id }
         })
         .then(function(data) {
-            return data;
+            var obj = {
+                success: true,
+                message: "Actualizado exitosamente"
+            }
+            return obj;
         })
         .catch(error => {
-            console.log("Error " + error)
-            return error;
+            var obj = {
+                success: false,
+                message: error
+            }
+            return obj;
         })
         // return res
     res.status(200).json({
-        success: true,
-        message: "Actualizado exitosamente",
         data: data
     });
 }
@@ -78,6 +101,66 @@ controllers.eliminar = async(req, res) => {
         where: { idusuario: idusuario }
     })
     res.json({ success: true, deleted: del, message: "Eliminado Correctamente!" });
+}
+
+controllers.iniciarSesion = async(req, res) =>{
+    const {email, password} = req.body;
+    
+    const data = await User.findOne({
+        where: {
+            email:email
+        }
+    }).then(function(user){
+        if(!user){
+            var obj ={
+                login: false,
+                message:'Correo no existe'
+            }
+            return obj
+            
+        }
+
+        if(!passwordValida(user.password, password)){
+            var obj ={
+                login: false,
+                message:'Password incorrecta'
+            }
+            return obj
+        };
+
+        var obj ={
+            login: true,
+            message:''
+        }
+        return obj
+
+    })
+
+    res.json({ data:data });
+
+};
+
+controllers.comprobarExistenciaCorreo = async(req, res) =>{
+    const { email } = req.body;
+    const data = await User.findOne({
+        where: {
+            email:email
+        }
+    }).then(function(user){
+        if(!user){
+            var obj = {
+                existe:false
+            }
+        }else{
+            var obj = {
+                existe:true
+            }
+        }
+        return obj;
+    });
+    res.json({ data:data });
+
+
 }
 
 module.exports = controllers;

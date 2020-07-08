@@ -1,6 +1,5 @@
 var Sequelize = require('sequelize');
 var sequelize = require('./database');
-const router = require('../routes/user');
 var nametable = 'usuario';
 
 var User = sequelize.define(nametable, {
@@ -10,8 +9,23 @@ var User = sequelize.define(nametable, {
         autoIncrement: true
     },
     email: Sequelize.STRING,
-    contraseña: Sequelize.STRING,
-})
+    tipoUsuario:{
+        type:Sequelize.INTEGER,
+        allowNull:false
+
+    },
+    password: {
+        type:Sequelize.STRING,
+        allowNull:false
+    },
+    last_login:{
+        type:Sequelize.DATE
+    },
+    estado:{
+        type:Sequelize.ENUM('activo','inactivo'),
+        defaultValue: 'activo'
+    }
+});
 
 
 module.exports = User;
