@@ -24,9 +24,8 @@ controllers.crear = async(req, res) => {
     // create
     const data = await Empresa.create({
             nombre_empresa: nombre_empresa,
-            correo_empresa: correo_empresa,
-            idusuario: idusuario
-        })
+            correo_empresa: correo_empresa
+                })
         .then(function(data) {
             return data;
         })
@@ -47,12 +46,10 @@ controllers.actualizar = async(req, res) => {
     console.log('req.body ', req.body);
     // data
     const { id } = req.params;
-    const { nombre_empresa, correo_empresa, idusuario } = req.body;
+    const { correo_empresa } = req.body;
     // create
     const data = await Empresa.update({
-            nombre_empresa: nombre_empresa,
             correo_empresa: correo_empresa,
-            idusuario: idusuario
         }, {
             where: { idempresa: id }
         })

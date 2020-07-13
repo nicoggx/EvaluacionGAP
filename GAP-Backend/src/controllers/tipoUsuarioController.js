@@ -7,6 +7,17 @@ sequelize.sync()
 
 //Listar usuarios
 controllers.listar = async(req, res) => {
+
+    Tipousuario.create({
+        idtipo: 1,
+        nombreTipo: 'Administrador',
+    })
+
+    Tipousuario.create({
+        idtipo: 2,
+        nombreTipo: 'Usuario',
+    })
+
     const data = await Tipousuario.findAll({})
         .then(function(data) {
             return data;

@@ -24,6 +24,7 @@ var datosEmpresas = sequelize.define(nametable, {
             key: 'iddato'
         }
     },
+    valorDato: Sequelize.STRING,
     estado: {
         type: Sequelize.ENUM('activo', 'inactivo'),
         defaultValue: 'activo'

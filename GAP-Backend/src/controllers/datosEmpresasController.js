@@ -20,12 +20,13 @@ controllers.listar = async(req, res) => {
 
 controllers.crear = async(req, res) => {
     // data
-    const { idempresa, iddato } = req.body;
+    const { idempresa, iddato, valorDato } = req.body;
 
     // create
     const data = await datosEmpresa.create({
             idempresa: idempresa,
-            iddato: iddato
+            iddato: iddato,
+            valorDato: valorDato
         })
         .then(function(data) {
             var obj = {

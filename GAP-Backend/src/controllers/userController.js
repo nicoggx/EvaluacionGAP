@@ -30,14 +30,15 @@ var passwordValida = function(userpass, password) {
 //Crear usuarios
 controllers.crear = async(req, res) => {
     // data
-    const { email, password, tipoUsuario } = req.body;
+    const { email, password, tipoUsuario, idempresa } = req.body;
     var userPassword = generateHash(password);
 
     // create
     const data = await User.create({
             email: email,
             password: userPassword,
-            tipoUsuario: tipoUsuario
+            tipoUsuario: tipoUsuario,
+            idempresa:idempresa
         })
         .then(function(data) {
             var obj = {
@@ -162,21 +163,18 @@ controllers.comprobarExistenciaCorreo = async(req, res) => {
 };
 
 controllers.cambiarTipoUsuario = async(req, res) => {
-    // data
     const { id } = req.params;
     const { tipoUsuario } = req.body;
 
-
-    // create
     const data = await User.update({
-            tipoUsuario: tipoUsuario
+            tipoUsuario:tipoUsuario
         }, {
             where: { idusuario: id }
         })
         .then(function(data) {
             var obj = {
                 success: true,
-                message: "Tipo de usuario actualizado exitosamente"
+                message: "Actualizado exitosamente"
             }
             return obj;
         })
