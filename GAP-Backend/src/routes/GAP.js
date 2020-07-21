@@ -7,6 +7,7 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 router.post('/listarGAP',urlencodedParser,  GAPcontroller.listarGAP);
 router.post('/evaluarGAP', urlencodedParser, GAPcontroller.calcularGAP);
+router.get('/exportarGAP/:idgap', GAPcontroller.exportarGAP);
 
 
 module.exports = router;

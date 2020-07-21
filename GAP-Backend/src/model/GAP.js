@@ -17,8 +17,8 @@ var GAP = sequelize.define(nametable, {
         }
     },
     nombreAnalisis: Sequelize.STRING,
-    parametros: Sequelize.STRING(2000),
-    json: Sequelize.STRING(2000),
+    parametros: Sequelize.STRING(20000),
+    json: Sequelize.STRING(20000),
 }, {
     timestamps: true
 })
