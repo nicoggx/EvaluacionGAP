@@ -4,7 +4,7 @@ const empresa = require('./routes/empresa');
 const tipoUsuario = require('./routes/tipoUsuario');
 const datos = require('./routes/datos');
 const datosEmpresas = require('./routes/datosEmpresa');
-
+const GAP = require('./routes/GAP')
 //Inicializacion
 const app = express();
 
@@ -21,7 +21,7 @@ app.use('/empresa', empresa);
 app.use('/tipoUsuario', tipoUsuario);
 app.use('/datos', datos);
 app.use('/datosEmpresas', datosEmpresas);
-
+app.use('/gap', GAP);
 app.listen(app.get('port'), () => {
     console.log("Bienvenido estas en el puerto ", 3000)
 })

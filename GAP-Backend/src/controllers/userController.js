@@ -137,7 +137,12 @@ controllers.iniciarSesion = async(req, res) => {
 
         var obj = {
             login: true,
-            message: ''
+            message: '',
+             info:{
+                 idusuario:user.idusuario,
+                 tipoUsuario:user.tipoUsuario,
+                 idempresa:user.idempresa
+             }
         }
         return obj
 
