@@ -37,5 +37,6 @@ var User = sequelize.define(nametable, {
     }
 });
 
+User.belongsTo(Empresa, {foreignKey: 'idempresa'});
 
 module.exports = User;

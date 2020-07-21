@@ -2,6 +2,7 @@ const controllers = {}
 
 var sequelize = require('./../model/database');
 var User = require('./../model/user');
+var Empresa = require('./../model/empresa');
 var bCrypt = require('bcrypt-nodejs');
 var LocalStrategy = require('passport-local').Strategy;
 
@@ -9,7 +10,14 @@ sequelize.sync()
 
 //Listar usuarios
 controllers.listar = async(req, res) => {
-    const data = await User.findAll({})
+    const data = await User.findAll({
+        include : [
+            { 
+              model: Empresa, 
+              required: true
+            }
+          ]
+    })
         .then(function(data) {
             return data;
         })
@@ -65,14 +73,12 @@ controllers.crear = async(req, res) => {
 controllers.actualizar = async(req, res) => {
     // data
     const { id } = req.params;
-    const { email, password } = req.body;
-
-    var userPassword = generateHash(password);
+    const { email, tipoUsuario } = req.body;
 
     // create
     const data = await User.update({
             email: email,
-            password: userPassword,
+            tipoUsuario: tipoUsuario,
         }, {
             where: { idusuario: id }
         })
