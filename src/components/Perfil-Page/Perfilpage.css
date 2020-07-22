@@ -1,0 +1,17 @@
+.perfil{
+    overflow: hidden;
+    height: 520px;
+    width: 1160px; 
+}
+.label{
+    position: relative;
+    left: 35%;
+}
+.input{
+    position: relative;
+    left: 35%;
+    width:350px
+}
+#changepassword{
+    display: none;
+}

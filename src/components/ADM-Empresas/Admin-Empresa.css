@@ -1,0 +1,164 @@
+.ADMUser{
+    position: relative;
+    left: 50px;
+}
+#Correo{
+    border:1px solid black;
+    width: 420px;
+}
+#Estado{
+    border:1px solid black;
+    width: 420px;
+}
+#TipoUsuario{
+    border:1px solid black;
+    width: 420px;
+}
+#Empresa{
+    border:1px solid black;
+    width: 420px;
+}
+#Acciones{
+    border:1px solid black;
+    width: 90px;
+}
+#Actualizar{
+    
+    width: 20px;
+    height: auto;
+}
+#Actualizar:hover{
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+#Borrar{
+    
+    width: 15px;
+    height: auto;
+}
+#Borrar:hover{
+    filter: invert(25%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+#Add{
+    width: 10px;
+    height: auto; 
+}
+#CrearCuenta{
+    position: relative;
+    left: 45%;
+    bottom: 10px;
+    background-color: white;
+    padding: 2.5px;
+    border-radius: 5px;
+}
+#CrearCuenta:hover{
+    background-color: #CF550B;
+  
+}
+.popupD {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+  }
+  .popupD_inner {
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 15%;
+    bottom: 60%;
+    margin: auto;
+    border-radius: 10px;
+    background: white;
+  }
+#CerrarD{
+    position: relative;
+    left: 39%;
+    bottom: 35px;
+    background-color: white;
+    padding: 2.5px;
+    border-radius: 5px;
+}
+#BorrarD{
+    position: relative;
+    left: 40%;
+    bottom: 35px;
+    background-color: white;
+    padding: 2.5px;
+    border-radius: 5px;
+}
+#BorrarD:hover{
+    background-color: #CF550B;
+}
+#CerrarD:hover{
+    background-color: #CF550B;
+}
+  .popupC {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+  }
+  .popupC_inner {
+    position: absolute;
+    left: 36%;
+    right: 36%;
+    top: 15%;
+    bottom: 50%;
+    margin: auto;
+    border-radius: 10px;
+    background: white;
+  }
+#CrearC{
+    position: relative;
+    left: 100px;
+    top: 20px;
+    background-color: white;
+    padding: 2.5px;
+    border-radius: 5px;
+}
+#CerrarC{
+    position: relative;
+    left: 80px;
+    top: 20px;
+    background-color: white;
+    padding: 2.5px;
+    border-radius: 5px;
+}
+#CrearC:hover{
+    background-color: #CF550B;
+}
+#CerrarC:hover{
+    background-color: #CF550B;
+}
+
+  .popupU {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+  }
+  .popupU_inner {
+    position: absolute;
+    left: 36%;
+    right: 36%;
+    top: 15%;
+    bottom: 55%;
+    margin: auto;
+    border-radius: 10px;
+    background: white;
+  }

@@ -1,0 +1,54 @@
+
+table{border-collapse: collapse;}
+.table{
+    position: relative;
+    left: 151px;
+}
+.Dominio{
+    border: 1px solid black;
+    width:150px;
+}
+.SeccionyDom{
+    border: 1px solid black;
+    width:1000px;
+}
+.Seccion{
+    border: 1px solid black;
+    width:350px;;
+}
+.Control{
+    border: 1px solid black;
+    width:100px;
+    padding-right: 200px;
+    
+    
+}
+#EnviarForm{
+    position: relative;
+    left: 1250px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+#EnviarForm:hover{
+    background-color: #CF550B;
+}
+.Control2{
+    border: 1px solid black;
+    width:300px;
+    height: auto;
+    
+    
+    
+}
+
+.Entrevistados{
+    border: 1px solid black;
+    width:102px
+}
+.Nanalisis{
+    padding-left: 150px;
+}
+.Nentrevistados{
+    padding-left: 150px;
+}

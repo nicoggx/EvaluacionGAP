@@ -1,0 +1,53 @@
+#main{
+   
+}
+.Header{
+    position: relative;
+}
+
+#component{
+    min-height: 70%;
+    min-width: 1100px;
+    width: 86.3%;
+    
+    overflow: auto;
+    position: fixed;
+    left: 220px;
+}
+.Component-chld{
+    width: 100%;
+    position: relative;
+    right:150px;
+    
+}
+.burger-menu{
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: relative;
+    bottom: 2px;
+    
+  }
+#left-menu{
+    
+    position:relative;
+    right:170px;
+    float:left
+
+     
+}
+
+#border{
+      width: 30px;
+      height: 30px;
+      padding-right: 15px;
+      padding-left: 3px;
+      position: relative;
+      right: 170px;
+      
+      float: left;
+      border-bottom-right-radius:50%; 
+      border-top-right-radius: 50%;
+      background-color: black;
+      display:none;
+  }

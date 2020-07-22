@@ -1,0 +1,1348 @@
+[
+    {
+        "Dominio":"Politica de Seguridad",
+        "Seccion":[{
+            "Nseccion":"Documento Política Seguridad Informática",
+            "Chck":"1.1.1",
+            "Stndr":"5.1.1",
+            "Data":[{
+                "Pregunta":"Existe una Política de Seguridad Informática la cual ha sido aprobada por la Gerencia, publicada y comunicada a todos los empleados?",
+                "Control":"a"
+                },{
+                "Pregunta":"La Politica establece el compromiso de la Gerencia y el acercamiento organizacional a la administración de seguridad informática?",
+                "Control":"b"
+            }]
+        },{
+            "Nseccion":"Revisión de Política Seguridad Informática",
+            "Chck":"1.1.2",
+            "Stndr":"5.1.2",
+            "Data":[{
+                "Pregunta":"Si la Política de Seguridad Informática es revisada en intervalos programados, o si cambios significativos ocurren para asegurarse su continuidad, adecuación y efectividad.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si la Política de Seguridad Informática tiene un dueño, el cual tiene responsabilidad aprobada para desarrollar, revisar y evaluar la Política de Seguridad.",
+                "Control":"b"
+                },{
+                "Pregunta":"Si existe un procedimiento definido para la revisión de la Política de Seguridad Informática y si incluye requisitos para la revisión por la Gerencia.",
+                "Control":"c"
+                },{
+                "Pregunta":"Si se toman en cuenta los resultados de las revisiones gerenciales.",
+                "Control":"d"
+            },{
+                "Pregunta":"Si se obtiene la aprobación de la gerencia para la Política revisada.",
+                "Control":"e"
+            }]
+        }]
+    },{
+        "Dominio":"Politica de Seguridad",
+        "Seccion":[{
+            "Nseccion":"Compromiso Gerencial a la Seguridad Informática",
+            "Chck":"2.1.1",
+            "Stndr":"6.1.1",
+            "Data":[{
+                "Pregunta":"Si la gerencia demuestra un apoyo activo a las medidas de seguridad dentro de la organización. Esto puede ser vía una clara dirección, compromiso demostrado, asignación explicita y reconocimiento sobre responsabilidades de seguridad informáticas.",
+                 "Control":"a"
+                }]
+            },{
+            "Nseccion":"Coordinación Seguridad Informática",
+            "Chck":"2.1.2",
+            "Stndr":"6.1.2",
+            "Data":[{
+                "Pregunta":"Si actividades relacionadas con la Seguridad Informática son coordinadas por representantes de diversas partes de la organización con roles y responsabilidades pertinentes.",
+                 "Control":"a"
+                }]
+            },{
+            "Nseccion":"Distribución Responsabilidades Seguridad Informática",
+            "Chck":"2.1.3",
+            "Stndr":"6.1.3",
+            "Data":[{
+                "Pregunta":"Si las responsabilidades para la protección de los activos individuales y el llevar a cabo procesos específicos de seguridad fueron definidos claramente.",
+                 "Control":"a"
+                }]
+            },{
+            "Nseccion":"Proceso Autorización para Facilidades de Procesos Informáticos",
+            "Chck":"2.1.4",
+            "Stndr":"6.1.4",
+            "Data":[{
+                "Pregunta":"Si existe un proceso de autorización gerencial definido e implementado para cualquier nueva facilidad de proceso de información.",
+                 "Control":"a"
+                }]
+            },{
+            "Nseccion":"Acuerdos de Confidencialidad",
+            "Chck":"2.1.5",
+            "Stndr":"6.1.5",
+            "Data":[{
+                "Pregunta":"Si las necesidades de la organización con relación a acuerdos de confidencialidad y no divulgación (NDA) para la protección de la información han sido claramente definidos y regularmente revisados. Cubre los requisitos de proteger la confidencialidad de la información utilizando términos legales aplicables.",
+                 "Control":"a"
+                }]
+            },{
+            "Nseccion":"Contacto con Autoridades",
+            "Chck":"2.1.6",
+            "Stndr":"6.1.6",
+            "Data":[{
+                "Pregunta":"Si existen procedimientos que describen cuando y por quien deben ser contactadas autoridades correspondientes como ser: la Policía, Bomberos, etc. y como debe ser reportado el incidente.",
+                 "Control":"a"
+                }]
+            },{
+            "Nseccion":"Contacto con Grupos de Interés Especial",
+            "Chck":"2.1.7",
+            "Stndr":"6.1.7",
+            "Data":[{
+                "Pregunta":"Si contacto adecuado con grupos de interés especial o foros de especialistas de seguridad y asociaciones de profesionales son mantenidas.",
+                    "Control":"a"
+                }]
+            },{
+            "Nseccion":"Revisión Independiente de la Seguridad Informática",
+            "Chck":"2.1.8",
+            "Stndr":"6.1.8",
+            "Data":[{
+                "Pregunta":"Si la manera de administrar la seguridad informática y su implementación es revisada independientemente en intervalos planeados o cuando ocurren cambios mayores con relación a implementaciones de seguridad.",
+                 "Control":"a"
+                }]
+            },{
+            "Nseccion":"Identificación de Riesgos por accesos de Externos",
+            "Chck":"2.2.1",
+            "Stndr":"6.2.1",
+            "Data":[{
+                "Pregunta":"Si riesgos a la información de la organización y sus instalaciones operacionales, de procesos que involucran a externos o terceros ha sido identificada y controles apropiados han sido implementados antes de otorgarles acceso.",
+                 "Control":"a"
+                }]
+            },{
+            "Nseccion":"Manejando la seguridad al tratar con Clientes",
+            "Chck":"2.2.2",
+            "Stndr":"6.2.2",
+            "Data":[{
+                "Pregunta":"Si todos los requisitos de seguridad identificados son cumplidos antes de otorgarle acceso al cliente a la información o activos de la organización.",
+                 "Control":"a"
+                }]
+            },{
+            "Nseccion":"Manejando la seguridad en acuerdos con Terceros",
+            "Chck":"2.2.3",
+            "Stndr":"6.2.3",
+            "Data":[{
+                "Pregunta":"Si el acuerdo con terceros, involucrando accesos, procesos, comunicaciones o administración de la información de la organización o facilidades de proceso, o introduciendo productos o servicios a las facilidades de proceso de la información, cumple con todos los requisitos de seguridad adecuados.",
+                 "Control":"a"
+                }]
+        }]
+    },{
+        "Dominio":"Administracion Activos",
+        "Seccion":[{
+            "Nseccion":"Inventario de Activos",
+            "Chck":"3.1.1",
+            "Stndr":"7.1.1",
+            "Data":[{
+                "Pregunta":"Si todos los activos han sido identificados y un inventario o registro se mantiene con todos los activos importantes.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Dueños de Activos",
+            "Chck":"3.1.2",
+            "Stndr":"7.1.2",
+            "Data":[{
+                "Pregunta":"SI cada activo identificado tiene un dueño, una clasificación de seguridad definida y acordada y restricción de accesos que son revisados regularmente.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Uso Aceptable de Activos",
+            "Chck":"3.1.3",
+            "Stndr":"7.1.3",
+            "Data":[{
+                "Pregunta":"Si regulaciones para el uso aceptable de información y activos asociados con una facilidad de proceso de la información han sido identificados, documentados e implementados.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Guía de Clasificación",
+            "Chck":"3.2.1",
+            "Stndr":"7.2.1",
+            "Data":[{
+                "Pregunta":"Si la información es clasificada en términos de valor, requisitos legales, sensibilidad y criticidad para la organización.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Etiquetado y Manejo de la Información",
+            "Chck":"3.2.2",
+            "Stndr":"7.2.2",
+            "Data":[{
+                "Pregunta":"Si un set de procedimientos apropiados han sido definidos para el etiquetado y manejo de la información de acuerdo con el esquema de clasificación adoptada por la organización.",
+                "Control":"a"
+                }]
+        }]
+    },{
+        "Dominio":"Seguridad Recursos Humanos",
+        "Seccion":[{
+            "Nseccion":"Roles y Responsabilidades",
+            "Chck":"4.1.1",
+            "Stndr":"8.1.1",
+            "Data":[{
+                "Pregunta":"Si los roles y responsabilidades de seguridad de los empleados, contratistas y terceros fueron definidos y documentados de acuerdo con la política de seguridad informática de la organización.                                     Fueron los roles y responsabilidades definidos y claramente comunicados a los candidatos durante el proceso previo a la contratación.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Revisión Antecedentes",
+            "Chck":"4.1.2",
+            "Stndr":"8.1.2",
+            "Data":[{
+                "Pregunta":"Si se efectuó una revisión de antecedentes para todos los candidatos a emplear, contratistas y terceros  según regulaciones relevantes.                                               Incluye la revisión de referencia de carácter, confirmación de calificaciones académicas como profesionales y una revisión de identidad independiente.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Términos y Condiciones de Empleo",
+            "Chck":"4.1.3",
+            "Stndr":"8.1.3",
+            "Data":[{
+                "Pregunta":"Si a los empleados, contratistas y terceros se les pide de firmar un Acuerdo de Confidencialidad o NO Divulgación como parte de sus acuerdos iniciales y condiciones al contrato de trabajo.                                                          Si este acuerdo cubre la responsabilidad sobre la seguridad informática de la organización y de los empleados, terceros y contratistas.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Términos y Condiciones de Trabajo",
+            "Chck":"4.1.4",
+            "Stndr":"8.1.4",
+            "Data":[{
+                "Pregunta":"Si los términos y condiciones de trabajo cubren las responsabilidades del empleado con relación a la seguridad informática.                                                                 Donde sea apropiada, estas responsabilidades pueden continuar por un periodo determinado aun después de finalizar su contrato con la organización.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Responsabilidades Administrativas",
+            "Chck":"4.2.1",
+            "Stndr":"8.2.1",
+            "Data":[{
+                "Pregunta":"Si los términos y condiciones de trabajo cubren las responsabilidades del empleado con relación a la seguridad informática.                                                                 Donde sea apropiada, estas responsabilidades pueden continuar por un periodo determinado aun después de finalizar su contrato con la organización.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Concientizacion, educación y entrenamiento sobre Seguridad Informática",
+            "Chck":"4.2.1",
+            "Stndr":"8.2.2",
+            "Data":[{
+                "Pregunta":"Si existe un proceso disciplinario formal para los empleados que han cometido una falta en seguridad.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Proceso disciplinario",
+            "Chck":"4.2.1",
+            "Stndr":"8.2.3",
+            "Data":[{
+                "Pregunta":"Si existe un proceso disciplinario formal para los empleados que han cometido una falta en seguridad.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Responsabilidades de termino",
+            "Chck":"4.3.1",
+            "Stndr":"8.3.1",
+            "Data":[{
+                "Pregunta":"Si las responsabilidades para efectuar la terminación o cambio laboral están claramente definidas y asignadas.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Devolución de Activos",
+            "Chck":"4.3.2",
+            "Stndr":"8.3.2",
+            "Data":[{
+                "Pregunta":"Si existe un proceso que asegure que todos los empleados, contratistas y terceros hagan entrega de los activos de la organización bajo su control al terminar su relación laboral, contrato o acuerdo.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Eliminación de derechos de Acceso",
+            "Chck":"4.3.3",
+            "Stndr":"8.3.3",
+            "Data":[{
+                "Pregunta":"Si los derechos de acceso de todos los empleados, contratistas y terceros a informaciones o facilidades informáticas, serán eliminados al termino de su relación laboral, contrato o acuerdo o será ajustado en caso de cambios.",
+                "Control":"a"
+                }]
+        }]
+    },{
+        "Dominio":"Seguridad Física y Ambiental",
+        "Seccion":[{
+            "Nseccion":"Perímetro Seguridad Física",
+            "Chck":"5.1.1",
+            "Stndr":"9.1.1",
+            "Data":[{
+                "Pregunta":"Que facilidad de seguridad física ha sido implementado para proteger el servicio de procesamiento informático.Ejemplos de tales facilidades de seguridad son control de acceso por tarjetas, paredes, recepcionista, etc.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Controles de Ingreso Físico",
+            "Chck":"5.1.2",
+            "Stndr":"9.1.2",
+            "Data":[{
+                "Pregunta":"Que controles de acceso existen para solo permitir el ingreso de personal autorizado dentro de varias áreas de la organización.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Asegurar Oficinas, cuartos y facilidades",
+            "Chck":"5.1.3",
+            "Stndr":"9.1.3",
+            "Data":[{
+                "Pregunta":"Si los cuartos que contiene los servicios de procesamientos informáticos están cerrados o contiene gabinetes o cajas de seguridad cerradas.",
+                "Control":"a"
+                }]
+        },{
+            "Nseccion":"Protegiendo contra amenazas externas y ambientales",
+            "Chck":"5.1.4",
+            "Stndr":"9.1.4",
+            "Data":[{
+                "Pregunta":"Si la protección física contra daños de fuego, inundaciones, terremotos, explosiones, disturbios civiles y otras formas de desastres ya sean naturales o causados por el hombre deben ser diseñados y aplicados.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si existen potenciales amenazas de predios aledaños.",
+                "Control":"b"
+                }]
+        },{
+            "Nseccion":"Trabajando en Áreas Seguras",
+            "Chck":"5.1.5",
+            "Stndr":"9.1.5",
+            "Data":[{
+                "Pregunta":"Si guías y protección física para trabajar en áreas seguras se han diseñado e implementado.",
+                "Control":"a"
+                }]
+        },{
+            "Nseccion":"Áreas Publicas de Carga y Descarga ",
+            "Chck":"5.1.6",
+            "Stndr":"9.1.6",
+            "Data":[{
+                "Pregunta":"Si las áreas de entrega, carga y otras donde personal no autorizado pueden ingresar a las instalaciones son controladas y centros de procesamiento informáticos están aislados para evitar accesos no autorizados.",
+                "Control":"a"
+                }]
+        },{
+            "Nseccion":"Protección de los Equipos",
+            "Chck":"5.2.1",
+            "Stndr":"9.2.1",
+            "Data":[{
+                "Pregunta":"Si los equipos han sido protegidos para reducir los riesgos de amenazas y peligros ambientales como oportunidades de accesos no autorizados.",
+                "Control":"a"
+                }]
+        },{
+            "Nseccion":"Utilitarios de Apoyo",
+            "Chck":"5.2.2",
+            "Stndr":"9.2.2",
+            "Data":[{
+                "Pregunta":"Si los equipos están protegidos de fallas eléctricas como también de otras fallas que pueden ser causadas por fallas en utilitarios de apoyo.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si fuentes de energía permanentes como son múltiples entradas, UPS, generadores, etc. están siendo utilizados.",
+                "Control":"b"
+                }]
+        },{
+            "Nseccion":"Seguridad del Cableado",
+            "Chck":"5.2.3",
+            "Stndr":"9.2.3",
+            "Data":[{
+                "Pregunta":"Si los cables de energía eléctrica y telecomunicaciones que transmiten datos o apoyan los servicios informáticos son protegidos de intercepciones o daños.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si existe cualquier control de seguridad adicional para las informaciones sensibles y criticas.",
+                "Control":"b"
+                }]
+        },{
+            "Nseccion":"Mantenimiento de Equipos",
+            "Chck":"5.2.4",
+            "Stndr":"9.2.4",
+            "Data":[{
+                "Pregunta":"Si los equipos son mantenidos correctamente para asegurar su disponibilidad e integridad.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si el equipo es mantenido según las especificaciones e intervalos de servicio que recomiendan los proveedores.",
+                "Control":"b"
+                },{
+                "Pregunta":"Si el mantenimiento solo es efectuado por personal autorizado",
+                "Control":"c"
+                },{
+                "Pregunta":"Si registros son mantenidos con todas las posibles fallas o fallas actuales con todas sus medidas preventivas y correctivas.",
+                "Control":"d"
+                },{
+                "Pregunta":"Si controles apropiados han sido implementados cuando se envían equipos fuera de las oficinas. ",
+                "Control":"e"
+                },{
+                "Pregunta":"Si el equipo esta cubierto por seguros y si los requisitos del seguro se cumplen.",
+                "Control":"f"
+                }]
+        },{
+            "Nseccion":"Asegurando equipos utilizados fuera de las oficinas",
+            "Chck":"5.2.5",
+            "Stndr":"9.2.5",
+            "Data":[{
+                "Pregunta":"Si los riesgos fueron evaluados con relación a cualquier uso de equipos fuera de las instalaciones de la organización y controles para mitigar los riesgos han sido implementados.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si el uso de una facilidad de procesamiento de la información localizado fuera de la organización ha sido autorizado por la gerencia.",
+                "Control":"b"
+                }]
+        },{
+            "Nseccion":"Asegurar la re-utilización o desecho de equipos",
+            "Chck":"5.2.6",
+            "Stndr":"9.2.6",
+            "Data":[{
+                "Pregunta":"Si todo equipo que contenga medios de almacenamiento es revisado para asegurarse de que cualquier información sensitiva o software bajo licencia ha sido físicamente destruido o re-grabado en forma segura antes de ser desechado o de su re-utilización.",
+                "Control":"a"
+                }]
+        },{
+            "Nseccion":"Remoción de Propiedad",
+            "Chck":"5.2.7",
+            "Stndr":"9.2.7",
+            "Data":[{
+                "Pregunta":"Si existen controles para que los equipos, información y software no sean llevados fuera de la organización sin previa autorización.",
+                "Control":"a"
+                }]
+        }]
+    },{
+        "Dominio":"Administración Comunicaciones y Operaciones",
+        "Seccion":[{
+            "Nseccion":"Procedimientos operativos documentados",
+            "Chck":"6.1.1",
+            "Stndr":"10.1.1",
+            "Data":[{
+                "Pregunta":"Si el procedimiento operacional esta documentado, mantenido y disponible para todos los usuarios que lo necesiten.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si dichos procedimientos son tratados como un documento formal y por lo tanto cualquier cambio que se necesite hacerle, requiere de la autorización gerencial.",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Control de Cambios Operacionales",
+            "Chck":"6.1.2",
+            "Stndr":"10.1.2",
+            "Data":[{
+                "Pregunta":"Si todos los cambios a los centros de procesamiento de la información y los sistemas esta controlado.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si registros de auditoria son mantenidos para reflejar cambios efectuados a los programas productivos.",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Segregación de Funciones",
+            "Chck":"6.1.3",
+            "Stndr":"10.1.3",
+            "Data":[{
+                "Pregunta":"Si derechos y áreas de responsabilidad son separados con la intención de reducir oportunidades de modificación o mal uso no autorizado de información o servicios.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Separación de facilidades de desarrollo y operacionales",
+            "Chck":"6.1.4",
+            "Stndr":"10.1.4",
+            "Data":[{
+                "Pregunta":"Si las facilidades de desarrollo y pruebas están aisladas de las facilidades operacionales.                                     Ejemplo software de desarrollo solo debe correr en un computador diferente a aquel en que se corre software de producción. Donde sea necesario las redes de desarrollo y producción deben mantenerse separadas.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Entrega de Servicios",
+            "Chck":"6.2.1",
+            "Stndr":"10.2.1",
+            "Data":[{
+                "Pregunta":"Si se mantienen mediciones para garantizar que los controles de seguridad, definición de servicios y niveles de entrega que se incluyen en el acuerdo de Entrega de Servicios a terceros están implementados, operando y mantenidos por un tercero.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Monitoreo y Revisión de Servicios de Terceros",
+            "Chck":"6.2.2",
+            "Stndr":"10.2.2",
+            "Data":[{
+                "Pregunta":"Si los servicios, reportes y registros proveídos por terceros son regularmente monitoreados y revisados.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si se efectúan auditorias sobre los servicios de terceros, reportes y registros en forma reiterada.",
+                "Control":"b"
+                }]
+            },{
+            "Nseccion":"Administrando cambios a los Servicios de Terceros",
+            "Chck":"6.2.3",
+            "Stndr":"10.2.3",
+            "Data":[{
+                "Pregunta":"Si los cambios para provisionar los servicios, incluyendo mantenimiento y mejoras a políticas, procedimientos y controles de seguridad informática existentes son administrados.                                                              Esto toma en consideración la criticidad de los sistemas de negocio, procesos involucrados y la re-evaluación de riesgos.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Administración de Capacidad",
+            "Chck":"6.3.1",
+            "Stndr":"10.3.1",
+            "Data":[{
+                "Pregunta":"Si las demanda de capacidad es monitoreada y proyecciones de requisitos futuros son hechos para asegurar un adecuado poder de procesamiento y almacenaje están disponibles.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Aceptación de Sistemas",
+            "Chck":"6.3.2",
+            "Stndr":"10.3.2",
+            "Data":[{
+                "Pregunta":"Si criterios para la aceptación de sistemas han sido establecidos para nuevos sistemas informáticos, actualizaciones y nuevas versiones.",
+                "Control":"a"
+                },{
+                "Pregunta":" Si se llevaron a cabo pruebas previas a la aceptación.",
+                "Control":"b"
+                }]
+            },{
+            "Nseccion":"Control contra código malicioso",
+            "Chck":"6.4.1",
+            "Stndr":"10.4.1",
+            "Data":[{
+                "Pregunta":"Si controles para la detección, prevención y control de recuperación para proteger contra código malicioso como también procedimientos de concientizacion del usuario han sido desarrollados e implementados.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Control contra código móvil",
+            "Chck":"6.4.2",
+            "Stndr":"10.4.2",
+            "Data":[{
+                "Pregunta":"Si solo se usa código móvil autorizado.                        (Código móvil es aquel software que se transfiere de un computador a otro y luego se ejecuta automáticamente. Efectúa un función especifica con con poca o ninguna intervención del usuario. Código móvil esta asociado con un numero de servicios middleware.)",
+                "Control":"a"
+                },{
+                "Pregunta":" Si la configuración asegura que el código móvil autorizado opera según las políticas de seguridad.",
+                "Control":"b"
+                },{
+                "Pregunta":"Si la ejecución de código móvil no autorizado es evitado. ",
+                "Control":"c"
+                }]
+            },{
+            "Nseccion":"Respaldo de la Información",
+            "Chck":"6.5.1",
+            "Stndr":"10.5.1",
+            "Data":[{
+                "Pregunta":"Si respaldos tanto de informaciones como de software se efectúan con regularidad y se prueban de acuerdo con la política de respaldos acordada.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si toda información y software esencial puede ser recuperada seguido de un desastre o falla de medio.",
+                "Control":"b"
+                }]
+            },{
+            "Nseccion":"Control de la Red",
+            "Chck":"6.6.1",
+            "Stndr":"10.6.1",
+            "Data":[{
+                "Pregunta":"Si la red esta adecuadamente administrada y controlada para protegerla de amenazas y para mantener la seguridad de los sistemas y aplicaciones utilizando la red, incluyendo la información en transito.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si controles fueron implementados para garantizar la seguridad de la información en la red y la protección de servicios conectados de amenazas como ser los accesos no autorizados.",
+                "Control":"b"
+                }]
+            },{
+            "Nseccion":"Seguridad de los Servicios de la Red",
+            "Chck":"6.6.2",
+            "Stndr":"10.6.2",
+            "Data":[{
+                "Pregunta":"Si las descripciones de seguridad, niveles de servicio y requisitos administrativos de todos los servicios de la red son identificados e incluidos en cualquier acuerdo de servicios de la red.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si el proveedor de servicios de la red tiene la capacidad de administrar los servicios acordados en una forma segura, definidos y regularmente monitoreados y con el derecho de auditar según lo acordado.",
+                "Control":"b"
+                }]
+            },{
+            "Nseccion":"Administración de Medios removibles",
+            "Chck":"6.7.1",
+            "Stndr":"10.7.1",
+            "Data":[{
+                "Pregunta":"Si existen procedimientos para la administración de medios removibles como son las cintas, discos, disquetes, CDs, tarjetas de memoria y reportes.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si todos los procedimientos y niveles de autorización son claramente definidos y documentados.",
+                "Control":"b"
+                }]
+            },{
+            "Nseccion":"Desechar Medios",
+            "Chck":"6.7.2",
+            "Stndr":"10.7.2",
+            "Data":[{
+                "Pregunta":"Si los medios que ya no son requeridos son desechados en forma segura según un procedimiento formal.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Procedimiento Manejo Información",
+            "Chck":"6.7.3",
+            "Stndr":"10.7.3",
+            "Data":[{
+                "Pregunta":"Si existe un procedimiento para manejar el almacenaje de la información.                                                                  Este procedimiento cubre temas como ser la protección de la información de divulgación no autorizada o mal uso.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Seguridad de Documentación de Sistemas",
+            "Chck":"6.7.4",
+            "Stndr":"10.7.4",
+            "Data":[{
+                "Pregunta":"Si la documentación de sistemas es protegida contra accesos no autorizados.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Políticas y Procedimientos Intercambio Información",
+            "Chck":"6.8.1",
+            "Stndr":"10.8.1",
+            "Data":[{
+                "Pregunta":"Si existe una política, procedimiento y control de intercambio formal que asegure la protección de la información.                                                                     El procedimiento y control cubren el uso de facilidades de comunicación electrónica para el intercambio de informaciones.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Acuerdos de Intercambio",
+            "Chck":"6.8.2",
+            "Stndr":"10.8.2",
+            "Data":[{
+                "Pregunta":"Si se han establecido acuerdos con relación al intercambio de información y software entre la organización y terceros.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si el contenido de seguridad del acuerdo refleja la sensibilidad de la información del negocio involucrada.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Medios Físicos en transito",
+            "Chck":"6.8.3",
+            "Stndr":"10.8.3",
+            "Data":[{
+                "Pregunta":"Si los medios conteniendo información es protegida contra accesos no autorizados, mal uso o corrupción durante su transportación fuera de las instalaciones físicas de la organización.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Mensajeria Electrónica",
+            "Chck":"6.8.4",
+            "Stndr":"10.8.4",
+            "Data":[{
+                "Pregunta":"Si la información involucrada en mensajeria electrónica esta bien protegida.                                                      (Mensajeria electrónica incluye pero no esta restringida a Correo Electrónico, Transferencia de Datos Electrónicamente (EDI), Mensajeria Instantánea)",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Sistemas Informáticos de Negocios",
+            "Chck":"6.8.5",
+            "Stndr":"10.8.5",
+            "Data":[{
+                "Pregunta":"Si políticas y procedimientos han sido desarrollados y reforzados para proteger información asociados con la interconexión de los sistemas informáticos de los negocios.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Comercio Electrónico",
+            "Chck":"6.9.1",
+            "Stndr":"10.9.1",
+            "Data":[{
+                "Pregunta":"Si la información involucrada en el comercio electrónico que se transmite sobre redes publicas esta protegida de actividades fraudulentas, disputas contractuales y cualquier acceso no autorizado o modificaciones.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si controles de seguridad como la aplicación de controles criptográficos se han tomado en consideración.",
+                "Control":"b"
+                },{
+                "Pregunta":"Si acuerdos sobre comercio electrónico entre los socios incluyen un acuerdo documentado el cual compromete a ambas partes a los términos de comercio incluyendo detalles de temas de seguridad.",
+                "Control":"c"
+                }]
+            },{
+            "Nseccion":"Transacciones en Línea",
+            "Chck":"6.9.2",
+            "Stndr":"10.9.2",
+            "Data":[{
+                "Pregunta":"Si la información involucrada en el comercio electrónico que se transmite sobre redes publicas esta protegida de actividades fraudulentas, disputas contractuales y cualquier acceso no autorizado o modificaciones.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Información Disponible Públicamente",
+            "Chck":"6.9.3",
+            "Stndr":"10.9.3",
+            "Data":[{
+                "Pregunta":"Si la integridad de información públicamente disponible esta protegida contra modificaciones no autorizadas.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Log de Auditoria",
+            "Chck":"6.10.1",
+            "Stndr":"10.10.1",
+            "Data":[{
+                "Pregunta":"Si los registros o logs de auditoria registran la actividad de usuarios, excepciones y eventos relacionados con seguridad informática son producidos y mantenidos por un periodo acordado para asistir en futuras investigaciones y monitoreo de control de accesos.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Monitoreo del Uso de Sistema",
+            "Chck":"6.10.2",
+            "Stndr":"10.10.2",
+            "Data":[{
+                "Pregunta":"Si se desarrollaron procedimientos para monitorear el uso de sistemas de las facilidades de procesamientos de informática y se refuerza su cumplimiento.     ",
+                "Control":"a"
+                },{
+                "Pregunta":"Si los resultados del monitoreo se revisan regularmente.",
+                "Control":"b"
+                },{
+                "Pregunta":"Si el nivel de monitoreo de una facilidad de procesamiento de la información es determinado por una evaluación de riesgo.",
+                "Control":"c"
+                }]
+            },{
+            "Nseccion":"Protección de Información de los Registros/Logs",
+            "Chck":"6.10.3",
+            "Stndr":"10.10.3",
+            "Data":[{
+                "Pregunta":"Si las áreas donde se almacenan los registros/logs y las informaciones de los registros/logs están bien protegidas contra manipulación y accesos no autorizados.",
+                "Control":"a"
+                }]
+            },{
+            "Nseccion":"Registros/logs de Administradores y Operadores",
+            "Chck":"6.10.4",
+            "Stndr":"10.10.4",
+            "Data":[{
+                "Pregunta":"Si las actividades de los Administradores o Operadores son registradas.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si dichos registros son revisados con regularidad.",
+                "Control":"b"
+                }]
+            },{
+            "Nseccion":"Registros/logs de Fallas",
+            "Chck":"6.10.5",
+            "Stndr":"10.10.5",
+            "Data":[{
+                "Pregunta":"Si fallas son registradas y analizadas y se toman acciones apropiadas.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si el nivel de registro requerido para sistemas individuales es determinado por una evaluación de riesgo tomando en cuenta la degradación en performance.",
+                "Control":"b"
+                }]
+            },{
+            "Nseccion":"Sincronización de Reloj",
+            "Chck":"6.10.6",
+            "Stndr":"10.10.6",
+            "Data":[{
+                "Pregunta":"Si el reloj de todos los sistemas de procesamiento de la información dentro de la organización o dominio de seguridad son sincronizados con una fuente acordada.",
+                "Control":"a"
+                }]
+        }]
+    },{
+        "Dominio":"Control de Accesos",
+        "Seccion":[{
+            "Nseccion":"Política de Control de Acceso",
+            "Chck":"7.1.1",
+            "Stndr":"11.1.1",
+            "Data":[{
+                "Pregunta":"Si una política de control de accesos ha sido desarrollada y revisada basada en los requisitos del negocio y seguridad.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si ambos controles de acceso tanto físico como lógicos han sido considerados en la política.",
+                "Control":"b"
+                },{
+                "Pregunta":"Si los usuarios y proveedores de servicios se les entrego un claro mensaje sobre los requisitos del negocio a ser cumplidos con relación al control de acceso.",
+                "Control":"c"
+            }]
+            },{
+            "Nseccion":"Registro de Usuario",
+            "Chck":"7.2.1",
+            "Stndr":"11.2.1",
+            "Data":[{
+                "Pregunta":"Si existe un procedimiento formal para el registro o el de-registro de los usuarios para otorgarles acceso a los servicios y sistemas informáticos multi-usuarios.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Administración Privilegiada",
+            "Chck":"7.2.2",
+            "Stndr":"11.2.2",
+            "Data":[{
+                "Pregunta":"Si la asignación o uso de cualquier privilegio en los ambientes de los sistemas informáticos esta restringido y controlado.                                                                     Ej., Privilegios son asignados en base a una necesidad; privilegios son asignados solo después de un proceso formal de autorización.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Administración de Contraseñas del Usuario",
+            "Chck":"7.2.3",
+            "Stndr":"11.2.3",
+            "Data":[{
+                "Pregunta":"La asignación o re-asignación de contraseñas debe ser controlado por un proceso formal de administración de contraseñas.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Revisión de los derechos de acceso del usuario",
+            "Chck":"7.2.4",
+            "Stndr":"11.2.4",
+            "Data":[{
+                "Pregunta":"Si existe un proceso para la revisión de los derechos de acceso de los usuarios en forma regular.                     Ejemplo: Privilegios especiales revisarlos cada 3 meses y privilegios normales cada 6 meses.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Uso de Contraseñas",
+            "Chck":"7.3.1",
+            "Stndr":"11.3.1",
+            "Data":[{
+                "Pregunta":"Si existe un proceso para la revisión de los derechos de acceso de los usuarios en forma regular.                     Ejemplo: Privilegios especiales revisarlos cada 3 meses y privilegios normales cada 6 meses.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Equipos de Usuario desatendidos",
+            "Chck":"7.3.2",
+            "Stndr":"11.3.2",
+            "Data":[{
+                "Pregunta":"Si los usuarios y contratistas han sido informados sobre los requisitos de seguridad y los procedimientos para la protección de los equipos desprotegidos.                                                               Ejemplo: LogOff cuando la sesión ha terminado o habilitar el auto-logoff, terminar las sesiones cuando termine etc.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Política sobre el uso de Servicios de la Red",
+            "Chck":"7.4.1",
+            "Stndr":"11.4.1",
+            "Data":[{
+                "Pregunta":"Si a los usuarios se les provee con acceso solo a los servicios que han sido específicamente autorizados a usar.",
+                "Control":"a"
+            },{
+                "Pregunta":"Si existe una política que maneja las temas relacionados con redes y servicios de red.",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Autenticación del Usuario para conexiones externas",
+            "Chck":"7.4.2",
+            "Stndr":"11.4.2",
+            "Data":[{
+                "Pregunta":"Si existen mecanismos de autenticación adecuados para el control de accesos de usuarios remotos.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Identificación de Equipos en la Red",
+            "Chck":"7.4.3",
+            "Stndr":"11.4.3",
+            "Data":[{
+                "Pregunta":"Si identificación automática de equipos es considerado como medio para autenticar conexiones de localidades especificas y equipos.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Diagnostico Remoto y configuración de Protección de Puertos",
+            "Chck":"7.4.4",
+            "Stndr":"11.4.4",
+            "Data":[{
+                "Pregunta":"Si el acceso lógico y físico a puertos de diagnostico están controlados de forma segura. Ej. Protegidos por un mecanismo de seguridad.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Segregación en Redes",
+            "Chck":"7.4.5",
+            "Stndr":"11.4.5",
+            "Data":[{
+                "Pregunta":"Si grupos de servicios informáticos, usuarios y sistemas informáticos están segregados en la red.",
+                "Control":"a"
+            },{
+                "Pregunta":"Si la red (donde socios y/o terceros necesitan accesar los sistemas informáticos) esta segregada utilizando mecanismos de seguridad perimetral como ser un cortafuegos.",
+                "Control":"b"
+            },{
+                "Pregunta":"Si consideraciones se han tomado para segregar redes inalámbricas de redes internas y privadas.",
+                "Control":"c"
+            }]
+            },{
+            "Nseccion":"Protocolo de Conexión de Redes",
+            "Chck":"7.4.6",
+            "Stndr":"11.4.6",
+            "Data":[{
+                "Pregunta":"Si existe alguna política de control de acceso el cual establece el control de conexión de redes para redes compartidas; especialmente las que se extienden fuera de las fronteras de la organización.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Control ruteo de Redes",
+            "Chck":"7.4.7",
+            "Stndr":"11.4.7",
+            "Data":[{
+                "Pregunta":"Si la política de control de accesos establece si controles en el ruteo han de ser implementados para las redes.",
+                "Control":"a"
+            },{
+                "Pregunta":"Si los controles de ruteo están basados en las fuentes positivas y mecanismos de identificación del destinatario. Ejemplo: Network Address Translation (NAT).",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Procedimiento Seguro de Log-on",
+            "Chck":"7.5.1",
+            "Stndr":"11.5.1",
+            "Data":[{
+                "Pregunta":"Si el acceso a sistemas operativos es controlado por un procedimiento de log-on seguro.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Identificación y Autenticacion del Usuario",
+            "Chck":"7.5.2",
+            "Stndr":"11.5.2",
+            "Data":[{
+                "Pregunta":"Si un identificador único es otorgado a cada usuario como son los operadores, administradores de sistemas y todos los demás empleados incluyendo personal técnico.",
+                "Control":"a"
+            },{
+                "Pregunta":"Si se ha escogido una técnica de autenticación aceptable para sustanciar la identidad correspondiente del usuario.                                                      Las cuentas de usuarios genéricas solo se deben entregar bajo circunstancias excepcionales donde realmente exista un beneficio al negocio. Controles adicionales pueden ser necesarios para mantener la responsabilidad.",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Sistema de Administración de Contraseña",
+            "Chck":"7.5.3",
+            "Stndr":"11.5.3",
+            "Data":[{
+                "Pregunta":"Si existe un sistema de administración de contraseñas que fuerza varios controles de contraseñas como ser: contraseñas individuales, forzar cambios de las contraseñas, almacenar las contraseñas en forma encriptada, no desplegar las contraseñas en las terminales/pantallas etc.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Utilización de Utilitarios de Sistemas",
+            "Chck":"7.5.4",
+            "Stndr":"11.5.4",
+            "Data":[{
+                "Pregunta":"Si los utilitarios de sistemas que vienen con las instalaciones de las computadoras, pero que pueden bypasear controles de los sistemas y aplicaciones son controlados en forma rigurosa.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Time-out de las Sesiones",
+            "Chck":"7.5.5",
+            "Stndr":"11.5.5",
+            "Data":[{
+                "Pregunta":"Si sesiones inactivas son desactivadas después de un periodo de inactividad definido.                                            (Una forma de inactividad puede ser proveída para algunos sistemas el cual deja en blanco la pantalla y previene el acceso no autorizado pero NO cierra las sesiones de la aplicación o de la Red.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Limite de tiempo de Conexión",
+            "Chck":"7.5.6",
+            "Stndr":"11.5.6",
+            "Data":[{
+                "Pregunta":"Si existe alguna restricción en el tiempo de conexión para aplicaciones de alto riesgo.                                            Este tipo de seteo debe ser considerado para aplicaciones sensitivas para las cuales sus terminales han sido instaladas en localidades de alto riesgo.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Restricción Acceso a la Información",
+            "Chck":"7.6.1",
+            "Stndr":"11.6.1",
+            "Data":[{
+                "Pregunta":"Si acceso a las funciones de sistemas informáticos y aplicaciones por usuarios y personal de soporte están restringidos de acuerdo con lo definido en la política de control de acceso.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Aislamiento de Sistemas Sensitivos",
+            "Chck":"7.6.2",
+            "Stndr":"11.6.2",
+            "Data":[{
+                "Pregunta":"Si los sistemas sensitivos están proveídos de una ambiente computacional dedicado (aislado) como es el de correr en un computador dedicado, recursos compartidos solo con sistemas de aplicaciones confiables, etc.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Computación Móvil y comunicaciones",
+            "Chck":"7.7.1",
+            "Stndr":"11.7.1",
+            "Data":[{
+                "Pregunta":"Si existe una Política formal y medidas de seguridad apropiados para proteger contra los riesgos de utilizar computación móvil y facilidades de comunicaciones.Algunos ejemplos de computación móvil y facilidades de comunicación incluyen: notebooks, palms, laptops, smart cards y teléfonos celulares.",
+                "Control":"a"
+            },{
+                "Pregunta":"Si los riesgos tal como es el trabajar en un ambiente no seguro ha sido considerado dentro de la política de computación móvil.",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Teletrabajo",
+            "Chck":"7.7.2",
+            "Stndr":"11.7.2",
+            "Data":[{
+                "Pregunta":"Si se ha desarrollado e implementado una Política, plan operacional y procedimiento  para las actividades del teletrabajo",
+                "Control":"a"
+            },{
+                "Pregunta":"Si la actividad de teletrabajo esta autorizada y controlada por la administración y se asegura de que acuerdos adecuados existen para esta forma de trabajo.",
+                "Control":"b"
+            }]
+        }]
+    },{
+        "Dominio":"Adquisición, desarrollo y mantenimiento de Sistemas Informáticos",
+        "Seccion":[{
+            "Nseccion":"Requisitos de Seguridad  Análisis y Especificaciones",
+            "Chck":"8.1.1",
+            "Stndr":"12.1.1",
+            "Data":[{
+                "Pregunta":"Si los requisitos de seguridad para nuevos sistemas informáticos y mejoras a sistemas informáticos existentes especifican los requisitos de controles de seguridad.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si los requisitos de seguridad y controles identificados reflejan los valores del negocio correspondiente a los activos informáticos involucrados y las consecuencias en caso de fallas de Seguridad.",
+                "Control":"b"
+                },{
+                "Pregunta":"Si los requisitos de sistemas para seguridad informática y procesos para la implementación de seguridad son integrados en las etapas iniciales de los proyectos de sistemas informáticos.",
+                "Control":"c"
+            }]
+            },{
+            "Nseccion":"Validación de Input de Datos",
+            "Chck":"8.2.1",
+            "Stndr":"12.2.1",
+            "Data":[{
+                "Pregunta":"Si el ingreso de datos a las aplicaciones son validados para asegurarse de que son correctos y apropiados.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si los controles tales como: diferentes tipos de datos para validar mensajes de error, procedimientos para responder a errores de validación, definición de responsabilidades de todo el personal involucrados en el proceso de ingreso de datos, etc., son considerados.",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Control de Procesos Internos",
+            "Chck":"8.2.2",
+            "Stndr":"12.2.2",
+            "Data":[{
+                "Pregunta":"Si controles de validación son incorporados dentro de la aplicación para detectar cualquier corrupción de información a través de errores de proceso u actos deliberados.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si el diseño e implementación de aplicaciones aseguran que el riesgo de fallas de proceso que conlleven a perdidas de integridad son minimizados.",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Integridad de Mensajes",
+            "Chck":"8.2.3",
+            "Stndr":"12.2.3",
+            "Data":[{
+                "Pregunta":"Si los requisitos para asegurar y proteger la integridad de los mensajes en aplicaciones son identificados y controles apropiados identificados e implementados.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si una evaluación de riesgos de seguridad se llevo a cabo para determinar si la integridad de los mensajes es requerido; y para identificar el método mas apropiado para su implementación",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Validación de Datos de Salida",
+            "Chck":"8.2.4",
+            "Stndr":"12.2.4",
+            "Data":[{
+                "Pregunta":"Si los datos de salida de las aplicaciones es validado para asegurarse que el proceso de datos almacenados es correcto y apropiado según las circunstancias.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Política para el Uso de Controles Criptográficos",
+            "Chck":"8.3.1",
+            "Stndr":"12.3.1",
+            "Data":[{
+                "Pregunta":"Política para el Uso de Controles Criptográficos",
+                "Control":"a"
+            },{
+                "Pregunta":"Si la política ha sido implementada exitosamente.",
+                "Control":"b"
+            },{
+                "Pregunta":"Si la política de criptografía considera la administración hacia el uso de controles criptográficos, resultados de evaluación de riesgos para identificar los niveles de protección necesarios, métodos de administración de llaves y varios estándares para su efectiva implementación.",
+                "Control":"c"
+            }]
+            },{
+            "Nseccion":"Administración de Llaves",
+            "Chck":"8.3.2",
+            "Stndr":"12.3.2",
+            "Data":[{
+                "Pregunta":"Si existe una administración de llaves que apoye a la organización en el uso de técnicas de criptografía.",
+                "Control":"a"
+            },{
+                "Pregunta":"Si llaves criptográficas son protegidas contra modificaciones, perdidas y destrucción.",
+                "Control":"b"
+            },{
+                "Pregunta":"Si llaves secretas y privadas son protegidas contra divulgación no autorizada.",
+                "Control":"c"
+            },{
+                "Pregunta":"Si los equipos utilizados para generar, almacenar las llaves están físicamente protegidos.",
+                "Control":"d"
+            },{
+                "Pregunta":"Si el sistema de administración de llaves esta basado en un estándar acordado, procedimientos y métodos seguros.",
+                "Control":"e"
+            }]
+            },{
+            "Nseccion":"Control de Software Operacional",
+            "Chck":"8.4.1",
+            "Stndr":"12.4.1",
+            "Data":[{
+                "Pregunta":"Si existen controles para la implementación de software en sistemas operativos.                                                      Esto es para minimizar el riesgo de corrupción de los sistemas operacionales.",
+                "Control":"a"
+            }]
+            },{
+                "Nseccion":"Control de Software Operacional",
+                "Chck":"8.4.2",
+                "Stndr":"12.4.2",
+                "Data":[{
+                "Pregunta":"Si los datos de prueba son protegidos y controlados.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si el uso de informaciones personal o cualquier información sensitiva para prueba de bases de datos son enmascarados.",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Control de Acceso a Librerías de Programas Fuentes",
+            "Chck":"8.4.3",
+            "Stndr":"12.4.3",
+            "Data":[{
+            "Pregunta":"Si existen controles estrictos sobre el acceso a la librería de programas fuentes.                                                        (Esto es para reducir el potencial de corrupción de los programas computacionales).",
+            "Control":"a"
+            }]
+            },{
+            "Nseccion":"Procedimientos de Control de Cambios",
+            "Chck":"8.5.1",
+            "Stndr":"12.5.1",
+            "Data":[{
+            "Pregunta":"Si existen controles estrictos sobre la implementación de cambios a los sistemas informáticos.                            (Esto es para minimizar la corrupción de los sistemas informáticos).",
+            "Control":"a"
+            },{
+            "Pregunta":"Si este procedimiento considera la necesidad de evaluar riesgos, análisis de impacto sobre los cambios.",
+            "Control":"b"
+            }]
+            },{
+            "Nseccion":"Revisión Técnica de aplicaciones después de cambios a sistemas operacionales",
+            "Chck":"8.5.2",
+            "Stndr":"12.5.2",
+            "Data":[{
+            "Pregunta":"Si existe un proceso o procedimiento para revisar y probar las aplicaciones criticas del negocio por impactos adversos en operaciones organizacionales o seguridad después de los cambios al sistema operativo.                                              Periódicamente es necesario actualizar los sistemas operativos. Ej. instalar Service Packs, parches, hot fixes, etc.",
+            "Control":"a"
+            }]
+            },{
+            "Nseccion":"Revisión Técnica de aplicaciones después de cambios a sistemas operacionales",
+            "Chck":"8.5.3",
+            "Stndr":"12.5.3",
+            "Data":[{
+                "Pregunta":"Si las modificaciones a paquetes de software son evitados y/o limitados solo a cambios necesarios.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si todos los cambios son estrictamente controlados.",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Divulgación de Información",
+            "Chck":"8.5.4",
+            "Stndr":"12.5.4",
+            "Data":[{
+                "Pregunta":"Si existen los controles para prevenir la divulgación de información.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si controles como es el escaneo de medios saliendo, inspecciones regulares del personal y actividades de sistemas permitidas bajo legislaciones locales, uso de recursos de monitoreo son considerados.",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Desarrollo de Sistemas Outsourced",
+            "Chck":"8.5.5",
+            "Stndr":"12.5.5",
+            "Data":[{
+                "Pregunta":"Si el desarrollo de software outsorceado es supervisado y monitoreado por la organización.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si puntos como son: acuerdos de licencia, requisitos contractuales sobre calidad, pruebas antes de instalación para la detección de troyanos etc.; son considerados.",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Control de vulnerabilidades Técnicas",
+            "Chck":"8.6.1",
+            "Stndr":"12.6.1",
+            "Data":[{
+                "Pregunta":"Si información sobre vulnerabilidades técnicas relacionado con sistemas informáticos utilizados es obtenida en forma regular.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si la exposición de la organización a tales vulnerabilidades han sido evaluadas y medidas apropiadas se han tomado para mitigar los riesgos asociados.",
+                "Control":"b"
+            }]
+        }]
+    },{
+        "Dominio":" Administración de Incidentes de Seguridad Informática",
+        "Seccion":[{
+            "Nseccion":"Reportando eventos de Seguridad Informáticos",
+            "Chck":"9.1.1",
+            "Stndr":"13.1.1",
+            "Data":[{
+                "Pregunta":"Si información sobre eventos de seguridad informáticos son reportados a través de canales de administración apropiados tan rápido como es posible.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si un procedimiento formal para reportar eventos de seguridad informática, procedimiento de respuesta y escalacion de Incidentes ha sido desarrollado e implementado.",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Reportando debilidades en la Seguridad",
+            "Chck":"9.1.2",
+            "Stndr":"13.1.2",
+            "Data":[{
+                "Pregunta":"Si existe un procedimiento que asegure que todos los empleados de informática y servicios son requeridos de notificar y reportar cualquier observación o debilidades de seguridad sospechosas en el sistema o servicios.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Responsabilidades y procedimientos",
+            "Chck":"9.2.1",
+            "Stndr":"13.2.1",
+            "Data":[{
+                "Pregunta":"Si los procedimientos y responsabilidades administrativas fueron establecidos para asegurar una respuesta rápida, efectiva y ordenada a los incidentes de seguridad informática.",
+                "Control":"a"
+            },{
+                "Pregunta":"Si el monitoreo de alertas y vulnerabilidades de sistemas son utilizados para detectar incidentes de seguridad informática.",
+                "Control":"b"
+            },{
+                "Pregunta":"Si el objetivo de la administración de los incidentes de seguridad informáticos han sido acordados con la gerencia.",
+                "Control":"c"
+            }]
+        },{
+            "Nseccion":"Aprendiendo de Incidentes de Seguridad Informáticos",
+            "Chck":"9.2.2",
+            "Stndr":"13.2.2",
+            "Data":[{
+                "Pregunta":"Si existe un mecanismo para identificar y cuantificar el tipo, volumen y costos de los incidentes de seguridad informáticos.",
+                "Control":"a"
+            },{
+                "Pregunta":"Si la información obtenida de la evaluación de los incidentes de seguridad informáticos pasados son utilizados para identificar incidentes recurrentes y de alto impacto.",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Colectar evidencia",
+            "Chck":"9.2.3",
+            "Stndr":"13.2.3",
+            "Data":[{
+                "Pregunta":"Si una acción de seguimiento contra una persona u organización después de un incidente de seguridad informático involucra acciones legales (ya sea civil o criminal).",
+                "Control":"a"
+            },{
+                "Pregunta":"Si evidencia relacionada al incidente es colectada, retenida y presentada para cumplir con las reglas de presentación de evidencia según la jurisdicción.",
+                "Control":"b"
+            }]
+        }]
+    },{
+        "Dominio":"Administración Continuidad de Negocios",
+        "Seccion":[{
+            "Nseccion":"Incluyendo Seguridad Informática en la Continuidad de Negocios",
+            "Chck":"10.1.1",
+            "Stndr":"14.1.1",
+            "Data":[{
+                "Pregunta":"Si existe un proceso administrado que define los requisitos de seguridad informática para el desarrollo y mantenimiento de la continuidad de negocios a través de la organización.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si este proceso contempla los riesgos que la organización esta enfrentando, identificación de activos del negocio críticos, identificación del impacto de incidentes, consideración de la implementación de controles adicionales de prevención y la documentación del plan de continuidad de negocios definiendo los requisitos de seguridad.",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Continuidad de Negocios y Evaluación de Riesgo",
+            "Chck":"10.1.2",
+            "Stndr":"14.1.2",
+            "Data":[{
+                "Pregunta":"Si los eventos que causan interrupciones a los procesos del negocio han sido identificados junto con la probabilidad e impacto que tales interrupciones y sus consecuencias por la seguridad informática.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Desarrollando e implementando planes de continuidad incluyendo seguridad informática",
+            "Chck":"10.1.3",
+            "Stndr":"14.1.3",
+            "Data":[{
+                "Pregunta":"Si los planes fueron desarrollados para mantener y restaurar las operaciones del negocio, asegurar la disponibilidad de la información dentro de los niveles requeridos en los tiempos requeridos seguidos a una interrupción o falla a los procesos de negocios.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si el plan considera identificación y acuerdos de responsabilidades, identificación de perdidas aceptables, implementación de procedimientos de recuperación y restauración, documentación de procedimientos y pruebas regulares.",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Arquitectura de Planeacion Continuidad de Negocios",
+            "Chck":"10.1.4",
+            "Stndr":"14.1.4",
+            "Data":[{
+                "Pregunta":"Si solo existe una arquitectura para el Plan de Continuidad de Negocios.                                                                   ",
+                "Control":"a"
+                },{
+                "Pregunta":"Si esta arquitectura se mantiene para garantizar que todos los planes son consistentes e identifican prioridades para pruebas y mantenimiento.",
+                "Control":"b"
+                },{
+                "Pregunta":"Si el plan de continuidad de negocios define los requisitos sobre seguridad informáticos identificados.",
+                "Control":"c"
+            }]
+            },{
+            "Nseccion":"Pruebas, Mantenimiento y re-evaluación de Planes de Continuidad de Negocios",
+            "Chck":"10.1.5",
+            "Stndr":"14.1.5",
+            "Data":[{
+                "Pregunta":"Si los Planes de Continuidad de Negocios son probados regularmente  para garantizar que están actualizados y son efectivos.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si las pruebas de los planes de continuidad garantizan que todos los miembros del equipo de recuperación y otros grupos de empleados relevantes están concientes del plan y de sus responsabilidades por la continuidad del negocio y la seguridad informática y conocen su role cuando el plan es activado.",
+                "Control":"b"
+            }]
+        }]
+    },{
+        "Dominio":"Cumplimiento",
+        "Seccion":[{
+            "Nseccion":"Identificación de Legislación aplicable",
+            "Chck":"11.1.1",
+            "Stndr":"15.1.1",
+            "Data":[{
+                "Pregunta":"Si todos los requisitos relevantes a regulaciones, contratos, etc. y el enfoque organizativo para cumplir los requisitos fueron definidos explícitamente y documentados para cada sistema informático y organización.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si controles específicos y responsabilidades individuales para cumplir con los requisitos fueron definidos y documentados.",
+                "Control":"b"
+            }]
+        },{
+            "Nseccion":"Derechos de Propiedad Intelectual",
+            "Chck":"11.1.1",
+            "Stndr":"15.1.1",
+            "Data":[{
+                "Pregunta":"Si existen procedimientos que garanticen el cumplimiento con requisitos legislativos, regulaciones y contratos en el uso de material en el cual pueden existir derechos de propiedad intelectual y en el uso de productos de software propietarios.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si los procedimientos están bien implementados.",
+                "Control":"b"
+                },{
+                "Pregunta":"Si controles como son: políticas de cumplimiento sobre los derechos de publicación de propiedad intelectual, procedimientos para la adquisición de software, políticas de concientizacion, mantener prueba de propiedad, cumpliendo con los términos y condiciones han sido considerado.",
+                "Control":"c"
+            }]
+            },{
+            "Nseccion":"Derechos de Propiedad Intelectual",
+            "Chck":"11.1.2",
+            "Stndr":"15.1.2",
+            "Data":[{
+                "Pregunta":"Si existen procedimientos que garanticen el cumplimiento con requisitos legislativos, regulaciones y contratos en el uso de material en el cual pueden existir derechos de propiedad intelectual y en el uso de productos de software propietarios.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si los procedimientos están bien implementados.",
+                "Control":"b"
+                },{
+                "Pregunta":"Si controles como son: políticas de cumplimiento sobre los derechos de publicación de propiedad intelectual, procedimientos para la adquisición de software, políticas de concientizacion, mantener prueba de propiedad, cumpliendo con los términos y condiciones han sido considerado.",
+                "Control":"c"
+            }]
+            },{
+            "Nseccion":"Protección de Registros Organizacionales",
+            "Chck":"11.1.3",
+            "Stndr":"15.1.3",
+            "Data":[{
+                "Pregunta":"Si registros importantes de la organización son protegidos de perdidas, destrucción y falsificación de acuerdo con regulaciones, contratos y requisitos de negocios.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si se ha considerado la posibilidad del deterioro de los medios de para el almacenaje de los registros.",
+                "Control":"b"
+                },{
+                "Pregunta":"Si los sistemas de almacenamiento de datos fueron escogidos para que datos requeridos puedan ser recuperados o restaurados en un tiempo y formato aceptable, dependiendo en los requisitos a cumplir.",
+                "Control":"c"
+            }]
+            },{
+            "Nseccion":"Protección de Datos y Privacidad de Datos Personales",
+            "Chck":"11.1.4",
+            "Stndr":"15.1.4",
+            "Data":[{
+                "Pregunta":"Si la protección y privacidad de los datos es asegurada según legislación, regulación relevantes y si es aplicable según cláusulas contractuales.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Prevención del mal uso de las facilidades de procesos informáticos",
+            "Chck":"11.1.5",
+            "Stndr":"15.1.5",
+            "Data":[{
+                "Pregunta":"Si el uso de las facilidades de procesos informáticos para efectos personales o no autorizados sin el consentimiento de la gerencia es tratado como uso inapropiado de las facilidades.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si un mensaje de advertencia al momento de log-on es presentado en la pantalla previo a su logon.                         El usuario tiene que reconocer la advertencia y reaccionar adecuadamente al mensaje en la pantalla para continuar con su proceso de logon. ",
+                "Control":"b"
+                },{
+                "Pregunta":"Si los sistemas de almacenamiento de datos fueron escogidos para que datos requeridos puedan ser recuperados o restaurados en un tiempo y formato aceptable, dependiendo en los requisitos a cumplir.",
+                "Control":"c"
+            }]
+            },{
+            "Nseccion":"Regulación de Controles Criptográfico",
+            "Chck":"11.1.6",
+            "Stndr":"15.1.6",
+            "Data":[{
+                "Pregunta":"Si los controles criptográficos son utilizados en cumplimiento con acuerdo, leyes y regulaciones relevantes.",
+                "Control":"a"
+            }]
+            },{
+            "Nseccion":"Cumplimiento con Políticas y Estándares de Seguridad",
+            "Chck":"11.2.1",
+            "Stndr":"15.2.1",
+            "Data":[{
+                "Pregunta":"Si los gerentes aseguran que todos los procedimientos de seguridad dentro de sus áreas de responsabilidad son efectuados correctamente para lograr cumplimiento con las políticas y estándares de seguridad.",
+                "Control":"a"
+                },{
+                "Pregunta":"Los Gerentes revisan periódicamente el cumplimiento de las facilidades de procesamiento informáticos dentro de sus área de responsabilidad para el cumplimiento con procedimientos y políticas de seguridad apropiados.",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Revisión del Cumplimiento Técnico",
+            "Chck":"11.2.2",
+            "Stndr":"15.2.2",
+            "Data":[{
+                "Pregunta":"Si los sistemas informáticos son regularmente revisados con relación al cumplimiento con la implementación de estándares de seguridad.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si la revisión del cumplimiento técnico es efectuado por o bajo la supervisión de personal competente y autorizado.",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Controles de Auditoria de Sistemas Informáticos",
+            "Chck":"11.3.1",
+            "Stndr":"15.3.1",
+            "Data":[{
+                "Pregunta":"Si los requisitos de auditoria y actividades que involucran revisiones de los sistemas operacionales deben ser planeadas cuidadosamente y acordadas para minimizar los riesgos o interrupciones a los procesos de negocio.",
+                "Control":"a"
+                },{
+                "Pregunta":"Si los requisitos de auditoria y alcance han sido acordados con la gerencia apropiada.",
+                "Control":"b"
+            }]
+            },{
+            "Nseccion":"Protección de las Herramientas de Auditorias de Sistemas Informáticos",
+            "Chck":"11.3.2",
+            "Stndr":"15.3.2",
+            "Data":[{
+                "Pregunta":"Si acceso a las herramientas de auditoria de sistemas como ser software o archivos de datos son protegidos para prevenir posible mal uso o compromisos",
+                "Control":"a"
+                },{
+                "Pregunta":"sistemas ",
+                "Control":"b"
+            }]
+        }]
+    }
+]

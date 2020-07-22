@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
 import App from './App';
+
+import { Helmet } from 'react-helmet'
 import * as serviceWorker from './serviceWorker';
+//esta linea es para pruebas comentar si no se esa
+//import Prueba from './components/prueba-doc';
+const TITLE = 'Calidad de datos';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+     <Helmet>
+          <title>{ TITLE }</title>
+          <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
+        </Helmet>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
