@@ -8,8 +8,8 @@ class GapxAxsol extends Component {
     constructor(){
     super();
     this.state={
-        list:[1],
-        list2:[1],
+        list:[],
+        list2:[],
         empresa:null
     }
 }
@@ -83,7 +83,7 @@ handleData2(){
     let list1=[]
     var myHeaders = new Headers();
           myHeaders.append('Content-Type', 'application/x-www-form-urlencoded;charset=UTF-8');
-          var details = {'idusuario':this.state.empresa
+          var details = {'idempresa':this.state.empresa
         };
         var formBody = [];
         for (var property in details) {
@@ -172,31 +172,8 @@ renderpag(){
     }}
     render() {
       return (
-            <div className="perfil">
-                <h1 align="center">Resultados Analisis Gap</h1>
-                <table className="TablaRes">
-                    <tr>
-                        <td className="NombreA" align="center">Nombre Analisis</td>
-                        <td className="Resp" align="center">Responsable</td>
-                        <td className="Fecha" align="center">Fecha</td>
-                        <td className="ReorteO" align="center">Reporte online</td>
-                        <td className="ReporteD" align="center">Descargar Reporte</td>
-                        <td className="Conclusiones" align="center">Ver Conclusiones</td>
-                    </tr>
-                  
-                    {this.state.list.map((Key)=>
-                        <tr>
-                        {console.log(Key)}
-                        <td className="NombreA" align="center">{Key.nombreAnalisis}</td>
-                        <td className="Resp" align="center">{Key.email}</td>
-                        <td className="Fecha" align="center">{Key.fecha_creacion}</td>
-                        <td className="ReorteO" align="center">Reporte online</td>
-                        <td className="ReporteD" align="center"><img src={Download} alt="Logo de descarga" onClick={()=>this.Download(Key.idgap,Key.nombreAnalisis)} id="iconDownlaod"></img></td>
-                        <td className="Conclusiones" align="center">Ver Conclusiones</td>
-                        </tr>    
-                    )}
-                 
-                </table>
+            <div >
+               {this.renderpag()}
             </div>
       );
     }
