@@ -22,7 +22,7 @@ controllers.listar = async(req, res) => {
 
 controllers.listarGAP =async(req, res) => {
     
-    var query = `SELECT g.nombreAnalisis, g.parametros, g.json, g.createdAt AS fecha_creacion,
+    var query = `SELECT g.idgap, g.nombreAnalisis, g.parametros, g.json, g.createdAt AS fecha_creacion,
     e.nombre_empresa, u.idusuario, u.email
     FROM gaps g 
     INNER JOIN usuarios AS u ON u.idusuario = g.idusuario
@@ -47,17 +47,17 @@ controllers.listarGAP =async(req, res) => {
         query += ` AND e.idempresa = ${req.body.idempresa}`
     }
     query += ` ORDER BY g.createdAt ASC`
+    var resultado=[];
+
     const [results, metadata] = await sequelize.query(query)
         .then(([results, metadata]) => {
+            resultado.push(results)
             return results;
         })
         .catch(error => {
             return error;
         })
-        var resultado;
-        if(results){
-            resultado=results;
-        }else{
+        if(!results){
             resultado='No hay resultados'
         }
 
@@ -147,7 +147,7 @@ controllers.calcularGAP = async(req, res) => {
 }
 
 controllers.exportarGAP = async(req, res) => {
-    var query = `SELECT g.nombreAnalisis, g.parametros, g.json, g.createdAt AS fecha_creacion,
+    var query = `SELECT g.idgap, g.nombreAnalisis, g.parametros, g.json, g.createdAt AS fecha_creacion,
     e.nombre_empresa, u.idusuario, u.email
     FROM gaps g 
     INNER JOIN usuarios AS u ON u.idusuario = g.idusuario
