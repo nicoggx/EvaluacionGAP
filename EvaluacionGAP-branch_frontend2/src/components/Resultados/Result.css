@@ -1,0 +1,17 @@
+.TablaRes{
+    position: relative;
+    left: 300px;
+}
+
+.NombreA{border: 1px solid black;
+    width:150px;}
+.Resp{border: 1px solid black;
+    width:150px;}
+.Fecha{border: 1px solid black;
+    width:150px;}
+.ReorteO{border: 1px solid black;
+    width:150px;}
+.ReporteD{border: 1px solid black;
+    width:150px;}
+.Conclusiones{border: 1px solid black;
+    width:150px;}
